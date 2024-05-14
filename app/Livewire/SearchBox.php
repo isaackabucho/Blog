@@ -4,8 +4,6 @@ namespace App\Livewire;
 
 use Livewire\Component;
 
-use function Laravel\Prompts\search;
-
 class SearchBox extends Component
 {
 
@@ -21,6 +19,7 @@ class SearchBox extends Component
         $this->dispatch('search', search: $this->search);
     }
 
+    // render the pages
     public function render()
     {
         return view('livewire.search-box');
