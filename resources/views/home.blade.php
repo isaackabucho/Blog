@@ -1,4 +1,5 @@
-<x-app-layout>
+<x-app-layout title="Home Page">
+
     @section('hero')
         <div class="w-full text-center py-32">
             <h1 class="text-2xl md:text-3xl font-bold text-center lg:text-5xl text-gray-700">
@@ -10,8 +11,9 @@
                 Reading</a>
         </div>
     @endsection
+    
 
-    <div class="mb-10 w-full">
+    <div class="mb-10 w-full p-10">
         <div class="mb-16">
             <h2 class="mt-16 mb-5 text-3xl text-yellow-500 font-bold">Featured Posts</h2>
             <div class="w-full">
